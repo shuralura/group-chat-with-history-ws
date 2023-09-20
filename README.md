@@ -44,5 +44,7 @@ JSON.stringify({
                 user: userName,
                 userID
               }
+
+              
 Server response on connection with the UUID
 JSON.stringify({type:'auth-ack', userID: userID})
