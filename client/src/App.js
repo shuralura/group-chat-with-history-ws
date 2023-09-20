@@ -63,7 +63,7 @@ const App = () => {
         <div>
           <div className="title">
             <Text id="main-heading" type="secondary" style={{ fontSize: '36px' }}>
-              Group Chat: {userName} {userID}
+              Group Chat: {userName}
             </Text>
           </div>
           <div style={{ display: 'flex', flexDirection: 'column', paddingBottom: 50 }} id="messages">
