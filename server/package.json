@@ -1,0 +1,17 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "Web server for group chat",
+  "main": "index.js",
+  "scripts": {
+    "test": "none",
+    "start" : "node index.js"
+  },
+  "author": "Alexander Luria",
+  "license": "ISC",
+  "dependencies": {
+    "crypto": "^1.0.1",
+    "http": "^0.0.1-security",
+    "websocket": "^1.0.34"
+  }
+}
